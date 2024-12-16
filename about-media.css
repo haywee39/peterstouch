@@ -33,6 +33,7 @@
 
 @media (width < 912px) {
     #about{
+        width: 100vw;
         height: auto;
         margin-bottom: 20px;
     }
