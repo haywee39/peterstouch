@@ -1,4 +1,3 @@
-
 // CURRENT MENU SECTION TO BE ACTIVELY UNDERLINED
 // CURRENT MENU SECTION TO BE ACTIVELY UNDERLINED
 
@@ -48,23 +47,29 @@ navLinks.forEach(link => {
 
 
 // ***********************************************************************
-// COMPANY NAME TYPEWRITER 
 
-const text = "THE PETERSTOUCH MERCHANT"; // The text to display
-const typingSpeed = 90; // Typing speed in milliseconds
+// THE CORE VISION MISSION IN THE ABOUT SECTION PICTURES SLIDES IN 
+document.addEventListener("DOMContentLoaded", function () {
+    const profiles = document.querySelectorAll(".belief-each");
 
-let i = 0;
+    function handleScroll() {
+        profiles.forEach((profile, index) => {
+            const rect = profile.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
 
-function typeWriter() {
-  const textElement = document.getElementById("text");
-  if (i < text.length) {
-    textElement.textContent += text.charAt(i);
-    i++;
-    setTimeout(typeWriter, typingSpeed);
-  }
-}
+            if (rect.top < windowHeight && rect.bottom >= 0) {
+                setTimeout(() => {
+                    profile.classList.add("visible");
+                }, index * 150); // Stagger effect by 150ms for each profile
+            } else if (rect.top > windowHeight || rect.bottom < 0) {
+             profile.classList.remove("visible"); // Remove visible class if scrolled out
+            }
+        });
+    }
 
-window.onload = typeWriter;
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Run once on load in case items are already in view
+});
 
 
-// ^^^^^^^^^^***************************************************************
+// **********************************************************************************

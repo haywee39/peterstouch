@@ -313,12 +313,54 @@ body{
   /* position: relative; */
   /* top: 0; */
   width: 100vw;
-  height: 100vh;
-  background-color: rgb(20, 50, 100, 0.8);
+  height: 125vh;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: red;
+}
+
+.abt-texts{
+  height: 120vh;
+  width: 60vw;
+  /* background-color: black; */
+}
+
+
+.abt-texts img{
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  margin-left:1rem;
+  shape-outside:circle();
+  float: left;
+  margin-right:3rem;
+  opacity: 0; /* Start invisible */
+  animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+  transform: scale(0.5); /* Start small */
+}
+100% {
+  opacity: 1;
+  transform: scale(1); /* Grow to full size */
+}
+}
+
+.abt-texts h1{
+  font-family: fantasy;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #69140e;
+  text-align: center;  
+}
+
+.abt-texts p{
+  font-size: 20px;
+  color: #69140e;
 }
 
 

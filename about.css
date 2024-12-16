@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+/* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
+
+/* General navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 13vh;
+  width: 100%;
+  background-color: #000; /* Ensures navbar background is visible */
+  z-index: 1000; /* Keeps navbar on top */
+}
+
+/* Logo styles */
+.navbar-brand img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%; /* Ensures logo is perfectly round */
+  margin-left: 20px;
+  object-fit: cover; /* Keeps image proportions */
+}
+
+/* Align menu items to the right */
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Add spacing between menu items */
+.navbar-nav .nav-item {
+  margin-left: 0.5rem;
+  padding-right: 20px;
+}
+
+/* Navbar toggler icon styles */
+.navbar-toggler {
+  border: none; /* Removes default border */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+  border-radius: 3px;
+  width: 30px;
+  height: 3px;
+}
+
+/* General nav-link styles */
+.navbar-nav .nav-link {
+  position: relative; /* Required for underline effect */
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Active menu item */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #d58936; /* Orange text for active and hover */
+}
+
+/* Underline effect for active menu item */
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #d58936; /* Orange underline */
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 992px) {
+  .navbar-nav {
+      text-align: center;
+      margin-left: 0; /* Remove auto margin for better alignment */
+  }
+
+  .navbar-nav .nav-item {
+      margin-left: 0;
+      padding-right: 0;
+  }
+
+  .navbar-brand img {
+      width: 60px;
+      height: 60px;
+  }
+}
+
+/* FOR NAVBAR DROPDOWN ON SMALL SCREEN  */
+
+/* Ensure dropdown menu has a solid background */
+.navbar-collapse {
+  background-color: #000; /* Black background for small screens */
+  padding: 10px 0; /* Add spacing for better appearance */
+}
+
+/* Ensure the navbar-toggler icon is visible and styled properly */
+.navbar-toggler {
+  border: none; /* Removes border around the toggler button */
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: none; /* Remove the default Bootstrap toggler icon */
+  width: 30px;
+  height: 3px;
+  background-color: #fff; /* White toggler bars */
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #fff; /* White toggler bars */
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px; /* First bar above */
+}
+
+.navbar-toggler-icon::after {
+  top: 8px; /* Third bar below */
+}
+
+/* Adjust dropdown links color */
+.navbar-nav .nav-link {
+  color: white; /* Ensure white text on small screens */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #d58936; /* Orange for active and hover links */
+}
+
+/* Responsive fixes for small screens */
+@media (max-width: 992px) {
+  .navbar-collapse {
+      text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+      margin-left: 0;
+      padding: 10px 0;
+  }
+
+  .navbar-toggler-icon {
+      background-color: transparent; /* Ensures proper spacing */
+  }
+}
+
+/* ********************************************************************* */
+
+#about{
+    padding-top: 20vh;
+    width: 100vw;
+    height: 180vh;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: red; */
+  }
+  
+  .abt-texts{
+    padding-top: 5vh;
+    height: 150vh;
+    width: 65vw;
+    /* background-color: grey; */
+    text-align: justify;
+  }
+  
+  
+  .abt-texts img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    margin-left:1rem;
+    shape-outside:circle();
+    float: left;
+    margin-right:4rem;
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
+  }
+  @keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5); /* Start small */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Grow to full size */
+  }
+  }
+  
+  .abt-texts h1{
+    font-family: fantasy;
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;  
+  }
+  
+  .abt-texts p{
+    font-size: 20px;
+    color: black;
+  }
+  /* *********************************************************** */
+ 
+  #believes{
+    /* margin-top:8vh; */
+    /* padding-top: 5vh; */
+    display: flex;
+    flex-direction:column;
+    width:100vw;
+    height: 65vh; 
+    align-items: center;
+    justify-content: center;
+    background: grey;
+  }
+
+  .belief-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 60vh;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: orange; */
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+  }
+
+  .belief-each {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+    height: 57vh;
+    background:black;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  
+  .belief-each.visible {
+    animation: slideIn 1s ease forwards;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+   
+  .belief-each h1 {
+    font-family: fantasy;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-align: center;
+    color: white !important;
+  }
+  
+  .belief-each p {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 40vh;
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+    /* background-color: blue; */
+  }
+  /* ********************************************************* */
+
+  #any{
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+  }
