@@ -63,6 +63,7 @@
         width: 100vw;
         /* gap: 10px; */
         /* background-color: blue; */
+        overflow-y: hidden;
       }
 
       .belief-container {
