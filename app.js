@@ -50,7 +50,7 @@ navLinks.forEach(link => {
 // ***********************************************************************
 // COMPANY NAME TYPEWRITER 
 
-const text = "THE PETERSTOUCH"; // The text to display
+const text = "THE PETERSTOUCH MERCHANT"; // The text to display
 const typingSpeed = 90; // Typing speed in milliseconds
 
 let i = 0;
