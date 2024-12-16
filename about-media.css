@@ -46,7 +46,8 @@
         height: 150px;
       }
       .abt-text h1{
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: bolder;
       }
 
       /* ************************************** */
@@ -71,9 +72,11 @@
         /* background-color: chartreuse; */
       }
       .belief-each {
+        display: flex;
         width: 95vw;
         height: 40vh;
         text-align: center;
+        justify-content: center;
         /* padding-left: 0; */
       }
       .belief-each h1{
@@ -83,7 +86,7 @@
       .belief-each p {
         display: flex;
         /* justify-content: center; */
-        width: 90vw;
+        width: 85vw;
         height: 30vh;
         text-align: justify;
         /* font-size: 18px; */
