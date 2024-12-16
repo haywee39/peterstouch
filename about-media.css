@@ -47,8 +47,8 @@
         height: 150px;
       }
       .abt-text h1{
-        font-size: 18px;
-        font-weight: bolder;
+        /* font-size: 18px; */
+        /* font-weight: bolder; */
       }
 
       /* ************************************** */
@@ -62,7 +62,7 @@
         height: auto;
         width: 100vw;
         /* gap: 10px; */
-        /* background-color: blue; */
+        background-color: transparent;
         overflow-y: hidden;
       }
 
