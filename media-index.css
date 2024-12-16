@@ -1,3 +1,17 @@
+@media (width < 400px){
+    .card-content{
+        height: 75vh;
+    }
+
+    #typewriter{
+        width: 95vw;
+    }
+}
+
+
+
+
+
 @media (width < 912px){
     #home{
         display: flex;
@@ -40,7 +54,7 @@
         font-size: 18px;
     }
     .me{
-        height: 50vh;
+        height: 67vh;
     }
 
 
