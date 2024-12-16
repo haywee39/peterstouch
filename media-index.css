@@ -1,0 +1,42 @@
+@media (width < 912px){
+
+    .card-content{
+        /* position: relative; */
+        width: 95vw;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color:blueviolet ; */
+    }
+
+    .name-desc{
+        margin-top: 0;
+        width: 100vw;
+        height:100vh;
+        /* background-color: aqua; */
+    }
+
+    #typewriter{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 0;
+        white-space: wrap;
+        width: 90vw;
+        height: 20vh;
+    }
+
+    .desc{
+        width: 100%;
+        height: 25vh;
+        font-size: 18px;
+    }
+    .me{
+        height: 50vh;
+    }
+
+
+}

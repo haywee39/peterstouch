@@ -225,7 +225,7 @@ body{
 .card-content{
     position: relative;
     width: 95vw;
-    height: 100vhvh; 
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,9 +240,8 @@ body{
   align-items: center;
   width: 60vw;
   height: 50vh;
-  /* background-color: yellow; */
+  background-color: yellow;
 }
-
 /* ****************************************************************************************** */
 
 #typewriter {
@@ -256,7 +255,7 @@ body{
   width: 59vw;
   color: white;
    /* border-right: 2px light transparent; */
-   /* background-color: red; */
+   background-color: red;
 }
 
 @keyframes blink {
@@ -278,7 +277,7 @@ body{
   text-align: justify;
   align-items: center;
   /* margin-bottom: 50px; */
-  /* background-color: #001627; */
+  background-color: #001627;
 }
 
 
