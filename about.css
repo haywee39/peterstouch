@@ -14,18 +14,26 @@ body{
 /* General navbar styles */
    /* Custom CSS for active link */
  .nav-link.active {
-  color: orange !important;
+  color: rgb(234,17,63) !important;
   text-decoration: underline;
+  text-underline-offset: 10px; 
 }
 
 /* Custom navbar link hover effect */
 .nav-link {
   color: #fff; /* Default link color */
   margin-left: 60px;
+  font-size: 18px;
 }
 
 .nav-link:hover {
-  color: orange; /* Hover color */
+  color: rgb(234,17,63); /* Hover color */
+}
+
+/* Change the toggler icon to white */
+.navbar-toggler-icon {
+  /* background-color: white; */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
@@ -35,20 +43,20 @@ body{
 /* ********************************************************************* */
 
 #about{
-    /* padding-top: 20vh; */
+    padding-top: 20vh;
     width: 100vw;
-    height: 160vh;
+    height: 175vh;
     color: white;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     /* background-color: red; */
   }
   
   .abt-texts{
     padding-top: 5vh;
-    height: 150vh;
-    width: 65vw;
+    height: 145vh;
+    width: 70vw;
     /* background-color: grey; */
     text-align: justify;
   }
@@ -64,6 +72,8 @@ body{
     margin-right:3rem;
     opacity: 0; /* Start invisible */
     animation: fadeIn 1s ease-in forwards; /* Apply the fade-in animation */
+    box-shadow: 10px  10px rgb(234,17,63); /* Shadows on left and right */
+    
   }
   @keyframes fadeIn {
   0% {
@@ -78,22 +88,27 @@ body{
   
   .abt-texts h1{
     font-family: fantasy;
-    font-size: 40px;
+    font-size: 45px;
+    /* font-weight: bold; */
     letter-spacing: 1px;
-    /* color: black; */
-    color: rgb(234,17,63);
-    text-align: center;  
-    /* outline: black; */
+    color: black;
+    /* color: ; */
+    text-align: center; 
+    text-decoration: underline  rgb(234,17,63);
+    text-underline-offset: 10px; 
+    /* text-underline-position: center; */
+    
   }
   
   .abt-texts p{
+    padding-top: 5px;
     font-size: 20px;
     color: black;
   }
   /* *********************************************************** */
  
   #believes{
-    /* margin-top:8vh; */
+    margin-top:8vh;
     /* padding-top: 5vh; */
     display: flex;
     flex-direction:column;
@@ -101,7 +116,7 @@ body{
     height: 65vh; 
     align-items: center;
     justify-content: center;
-    background: grey;
+    /* background: grey; */
   }
 
   .belief-container {
@@ -112,8 +127,8 @@ body{
     justify-content: space-evenly;
     align-items: center;
     /* background-color: orange; */
-    /* overflow-y: hidden; */
-    /* overflow-x: hidden; */
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .belief-each {
@@ -121,9 +136,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 33vw;
-    height: 57vh;
+    width: 30vw;
+    height: 55vh;
     background:black;
+    box-shadow: 10px 10px rgb(234,17,63);
     transform: translateX(100%);
     opacity: 0;
     transition: transform 1s ease, opacity 1s ease;
@@ -149,12 +165,14 @@ body{
     font-size: 30px;
     text-align: center;
     color: white !important;
+    text-decoration: underline rgb(234,17,63);
+    text-underline-offset: 10px;
   }
   
   .belief-each p {
     display: flex;
     justify-content: center;
-    width: 30vw;
+    width: 28vw;
     height: 40vh;
     text-align: justify;
     font-size: 18px;
