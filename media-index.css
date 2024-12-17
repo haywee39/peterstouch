@@ -1,6 +1,7 @@
 @media (width < 400px){
+
     .card-content{
-        height: 75vh;
+        height: auto;
     }
 
     #typewriter{
@@ -16,13 +17,16 @@
     #home{
         display: flex;
         justify-content: center;
+        height: auto;
     }
 
     .card-content{
         /* position: relative; */
         margin-top: 10vh;
-        width: 95vw;
-        height: 68vh; 
+        /* width: 95vw; */
+        width: 100vw;
+        /* height: 68vh;  */
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -31,7 +35,7 @@
     }
 
     .name-desc{
-        margin-top: 0;
+        margin-top: 10vh;
         width: 100vw;
         height:100vh;
         /* background-color: aqua; */
@@ -45,10 +49,11 @@
         letter-spacing: 0;
         white-space: wrap;
         width: 90vw;
-        height: 23vh;
+        height: 28vh;
     }
 
     .desc{
+        margin-top: 5vh;
         width: 90%;
         height: 25vh;
         font-size: 18px;
