@@ -90,13 +90,11 @@ body{
     font-family: fantasy;
     font-size: 45px;
     /* font-weight: bold; */
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     color: black;
-    /* color: ; */
     text-align: center; 
     text-decoration: underline  rgb(234,17,63);
     text-underline-offset: 10px; 
-    /* text-underline-position: center; */
     
   }
   
