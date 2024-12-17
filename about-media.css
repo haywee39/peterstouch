@@ -49,9 +49,10 @@
         margin-left: 2rem;
       }
       .abt-texts h1{
-        font-size: 25px;
-        /* font-weight: bolder; */
-        background-color: aquamarine;
+        font-size: 30px;
+        text-decoration: none;
+        text-align: justify;
+        /* background-color: aquamarine; */
       }
 
       /* ************************************** */

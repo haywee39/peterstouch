@@ -89,8 +89,6 @@ body{
   .abt-texts h1{
     font-family: fantasy;
     font-size: 45px;
-    /* font-weight: bold; */
-    /* letter-spacing: 1px; */
     color: black;
     text-align: center; 
     text-decoration: underline  rgb(234,17,63);
@@ -170,9 +168,10 @@ body{
   .belief-each p {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 28vw;
-    height: 40vh;
-    text-align: justify;
+    height: 35vh;
+    text-align: center;
     font-size: 18px;
     color: white;
     /* background-color: blue; */
