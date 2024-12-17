@@ -6,6 +6,7 @@
 
 body{
     scroll-behavior: smooth;
+    background-color: rgb(212,220,231);
 }
 
 
@@ -13,7 +14,7 @@ body{
 
  /* Custom CSS for active link */
  .nav-link.active {
-  color: rgb(234,17,63) !important;
+  color: rgb(19,82,245) !important;
   text-decoration: underline;
   text-underline-offset: 10px; 
 }
@@ -26,7 +27,7 @@ body{
 }
 
 .nav-link:hover {
-  color: rgb(234,17,63); /* Hover color */
+  color: rgb(19,82,245); /* Hover color */
 }
 
 /* Change the toggler icon to white */
@@ -100,7 +101,7 @@ body{
   display: inline-block;
   height: 15vh;
   width: 62vw;
-  color: white;
+  color: black;
    /* border-right: 2px light transparent; */
    /* background-color: red; */
 }
@@ -116,7 +117,7 @@ body{
 }
 
 .desc{
-  color: white;
+  color: black;
   width: 35vw;
   height: 28vh;
   font-size: 20px;
@@ -156,9 +157,9 @@ body{
 }
 
 /* *************************************************************************************** */
-#about{
-  /* position: relative; */
-  /* top: 0; */
+/* #about{
+  position: relative; 
+   top: 0; 
   width: 100vw;
   height: 125vh;
   color: white;
@@ -171,7 +172,7 @@ body{
 .abt-texts{
   height: 120vh;
   width: 60vw;
-  /* background-color: black; */
+   background-color: black; 
 }
 
 
@@ -183,17 +184,17 @@ body{
   shape-outside:circle();
   float: left;
   margin-right:3rem;
-  opacity: 0; /* Start invisible */
-  animation: fadeIn 2s ease-in forwards; /* Apply the fade-in animation */
+  opacity: 0;  Start invisible 
+  animation: fadeIn 2s ease-in forwards;  Apply the fade-in animation 
 }
 @keyframes fadeIn {
 0% {
   opacity: 0;
-  transform: scale(0.5); /* Start small */
+  transform: scale(0.5);  Start small 
 }
 100% {
   opacity: 1;
-  transform: scale(1); /* Grow to full size */
+  transform: scale(1);  Grow to full size 
 }
 }
 
@@ -209,7 +210,7 @@ body{
   font-size: 20px;
   color: #69140e;
 }
-
+ */
 
 
 

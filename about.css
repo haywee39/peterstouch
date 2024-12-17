@@ -6,6 +6,7 @@
 
 body{
     scroll-behavior: smooth;
+    background-color: rgb(212,220,231);
 }
 
 
@@ -14,7 +15,7 @@ body{
 /* General navbar styles */
    /* Custom CSS for active link */
  .nav-link.active {
-  color: rgb(234,17,63) !important;
+  color: rgb(19,82,245) !important;
   text-decoration: underline;
   text-underline-offset: 10px; 
 }
@@ -27,7 +28,7 @@ body{
 }
 
 .nav-link:hover {
-  color: rgb(234,17,63); /* Hover color */
+  color: rgb(19,82,245); /* Hover color */
 }
 
 /* Change the toggler icon to white */
@@ -46,7 +47,7 @@ body{
     padding-top: 20vh;
     width: 100vw;
     height: 175vh;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +73,6 @@ body{
     margin-right:3rem;
     opacity: 0; /* Start invisible */
     animation: fadeIn 1s ease-in forwards; /* Apply the fade-in animation */
-    box-shadow: 10px  10px rgb(234,17,63); /* Shadows on left and right */
     
   }
   @keyframes fadeIn {
@@ -91,7 +91,7 @@ body{
     font-size: 45px;
     color: black;
     text-align: center; 
-    text-decoration: underline  rgb(234,17,63);
+    text-decoration: underline  rgb(19,82,245);
     text-underline-offset: 10px; 
     
   }
@@ -134,8 +134,9 @@ body{
     align-items: center;
     width: 30vw;
     height: 55vh;
-    background:black;
-    box-shadow: 10px 10px rgb(234,17,63);
+    /* background:rgb(200,210,221); */
+    background-color: lightgrey;
+    box-shadow: 10px 10px rgb(19,82,245);
     transform: translateX(100%);
     opacity: 0;
     transition: transform 1s ease, opacity 1s ease;
@@ -160,8 +161,8 @@ body{
     letter-spacing: 1px;
     font-size: 30px;
     text-align: center;
-    color: white !important;
-    text-decoration: underline rgb(234,17,63);
+    color: black !important;
+    text-decoration: underline rgb(19,82,245);
     text-underline-offset: 10px;
   }
   
@@ -173,7 +174,7 @@ body{
     height: 35vh;
     text-align: center;
     font-size: 18px;
-    color: white;
+    color: black;
     /* background-color: blue; */
   }
   /* ********************************************************* */

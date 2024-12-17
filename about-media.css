@@ -16,9 +16,11 @@
         padding-top: 2vh;
         width: 98vw;
         height: auto;
-        background-color: yellow;
+        /* background-color: yellow; */
       }
       .abt-texts img{
+        margin-bottom: 5vh;
+      
         /* display: flex; */
           /* width: 100px; */
           /* height: 100px; */
@@ -48,16 +50,19 @@
         margin-bottom: 20px;
     }
     .abt-texts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 95vw;
         height: auto;
-        /* background-color: yellow; */
+        /* background-color: green; */
       }
       .abt-texts img{
         width: 150px;
         height: 150px;
-        margin-right: 3rem;
-        margin-left: 2rem;
-        margin-bottom: 2rem;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 2vh;
       }
       .abt-texts h1{
         font-size: 30px;
