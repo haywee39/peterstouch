@@ -28,8 +28,8 @@
 
     #typewrite{
         /* margin-top: 3vh; */
-        width: 76vw;
-        height: 28vh;
+        width: 80vw;
+        height: 32vh;
         background-color: orange;
     }
 }
@@ -49,7 +49,7 @@
         padding-top: 0;
         width: 90vw;
         height: 70vh;
-        background-color:blueviolet ;
+        /* background-color:blueviolet ; */
     }
 
     #typewriter{
@@ -57,19 +57,17 @@
         align-items: center;
         justify-content: center;
         font-size: 50px;
-        /* flex-wrap: wrap; */
         letter-spacing: 0;
         white-space: wrap;
         width: 85vw;
-        height: 30vh;
-        background-color: yellowgreen;
+        height: 32vh;
+        /* background-color: yellowgreen; */
     }
 
     #typewrite{
-        /* margin-top: 3vh; */
-        width: 76vw;
-        height: 28vh;
-        background-color: brown;
+        width: 78vw;
+        height: 29vh;
+        /* background-color: brown; */
     }
    
 

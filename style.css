@@ -116,17 +116,19 @@ body{
 
 
 /* *************************************************************************************** */
-/* #about{
-  position: relative; 
-   top: 0; 
+#any{
+  /* position: relative;  */
+   /* top: 0;  */
   width: 100vw;
-  height: 125vh;
-  color: white;
+  height: 50vh;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  /* background-color: red; */
 }
+
+/* 
 
 .abt-texts{
   height: 120vh;
