@@ -21,8 +21,8 @@
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
-    width: 96%;
-    height: 20vh;
+    width: 97%;
+    height: 22vh;
     /* text-align: center; */
     font-size: 16px;
     /* color: white; */
@@ -38,7 +38,7 @@
 
 @media (width < 912px) {
     #about{
-        padding-top: 12vh;
+        /* padding-top: 12vh; */
         width: 100vw;
         height: 200vh;
         /* background-color: red; */
@@ -54,7 +54,7 @@
         font-size: 30px;
         text-align: justify;
         font-weight: bolder;
-        /* background-color: blue; */
+        background-color: blue;
       }
 
       .abt-texts p{

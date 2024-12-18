@@ -8,7 +8,7 @@
     .card-content{
         margin-top: 10vh;
         padding-top: 0;
-        width: 90vw;
+        width: 95vw;
         height: 70vh;
         background-color:olive ;
     }
@@ -21,16 +21,17 @@
         /* flex-wrap: wrap; */
         letter-spacing: 0;
         white-space: wrap;
-        width: 85vw;
+        width: 97vw;
         height: 30vh;
-        background-color: orangered;
+        /* background-color: orangered; */
     }
 
     #typewrite{
         /* margin-top: 3vh; */
-        width: 80vw;
-        height: 32vh;
-        background-color: orange;
+        width: 95vw;
+        height: 35vh;
+        font-size: 18px;
+        /* background-color: orange; */
     }
 }
 
