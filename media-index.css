@@ -4,15 +4,22 @@
         /* height: auto; */
     }
 
+    .name-desc{
+        /* margin-top: 10vh; */
+        width: 95vw;
+        height:95vh;
+        /* background-color: aqua; */
+    }
+
     #typewriter{
         width: 95vw;
-        height: 16vh;
+        height: 40vh;
     }
 
     #typewrite{
         margin-top: 5vh;
         width: 90%;
-        height: 25vh;
+        height: 45vh;
     }
 }
 
@@ -34,7 +41,7 @@
     .name-desc{
         /* margin-top: 10vh; */
         width: 95vw;
-        height:40vh;
+        height:80vh;
         /* background-color: aqua; */
     }
 
@@ -44,14 +51,14 @@
         letter-spacing: 0;
         white-space: wrap;
         width: 90vw;
-        height: 15vh;
+        height: 25vh;
         /* background-color: yellowgreen; */
     }
 
     #typewrite{
         margin-top: 3vh;
         width: 80%;
-        height: 20vh;
+        height: 25vh;
     }
    
 
