@@ -13,13 +13,13 @@
 
     #typewriter{
         width: 95vw;
-        height: 40vh;
+        height: 50vh;
     }
 
     #typewrite{
         margin-top: 5vh;
         width: 90%;
-        height: 45vh;
+        height: 50vh;
     }
 }
 

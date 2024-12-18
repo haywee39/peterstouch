@@ -47,19 +47,13 @@
         height: auto;
         /* background-color: green; */
       }
-      .abt-texts img{
-        width: 150px;
-        height: 150px;
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 2vh;
-      }
+     
       .abt-texts h1{
-        font-size: 27px;
-        text-decoration: none;
+        font-size: 30px;
+        /* text-decoration: none; */
         text-align: justify;
         font-weight: bolder;
-        background-color: blue;
+        /* background-color: blue; */
       }
 
       .abt-texts p{

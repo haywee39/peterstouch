@@ -66,29 +66,7 @@ body{
     
   }
   
-  
-  /* .abt-texts img{
-    width: 230px;
-    height: 230px;
-    margin-left:1rem;
-    shape-outside: square();
-    float: left;
-    margin-right:3rem;
-    opacity: 0; Start invisible
-    animation: fadeIn 1s ease-in forwards; Apply the fade-in animation
-    
-  }
-  @keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.5); Start small
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1); Grow to full size
-  }
-  } */
-  
+   
   .abt-texts h1{
     font-family: fantasy;
     font-size: 45px;
