@@ -13,11 +13,12 @@ body{
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
 
 .navbar{
-  background-color: rgb(30,120,154) !important;
+  /* background-color: rgb(30,120,154) !important; */
+  background-color: rgb(19,82,245) !important;
 }
  /* Custom CSS for active link */
  .nav-link.active {
-  color: rgb(19,82,245) !important;
+  color: white !important;
   text-decoration: underline;
   text-underline-offset: 10px; 
 }
@@ -30,7 +31,8 @@ body{
 }
 
 .nav-link:hover {
-  color: rgb(19,82,245); /* Hover color */
+  /* color: rgb(19,82,245); */
+  color: white;
 }
 
 /* Change the toggler icon to white */
@@ -205,7 +207,7 @@ body{
 
 /* ********************************************************************* */
 .footer{
-  background-color: rgb(30,120,154);
+  background-color: rgb(19,82,245);
   color: white;
   height: 15vh;
   display: flex;
@@ -226,7 +228,7 @@ body{
   text-decoration: none;  
 }
 .foot a:hover{
-  color: rgb(19,82,245);
+  color: red;
 }
 
 .tag{
