@@ -7,18 +7,18 @@
     .name-desc{
         /* margin-top: 10vh; */
         width: 95vw;
-        height:95vh;
+        height:100vh;
         /* background-color: aqua; */
     }
 
     #typewriter{
         width: 95vw;
-        height: 50vh;
+        height: 60vh;
     }
 
     #typewrite{
         margin-top: 5vh;
-        width: 90%;
+        width: 95%;
         height: 50vh;
     }
 }

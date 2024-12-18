@@ -49,11 +49,11 @@
       }
      
       .abt-texts h1{
-        font-size: 30px;
+        font-size: 27px;
         /* text-decoration: none; */
         text-align: justify;
         font-weight: bolder;
-        /* background-color: blue; */
+        background-color: blue;
       }
 
       .abt-texts p{
