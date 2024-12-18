@@ -20,9 +20,9 @@
 // ^^^^^^^^^^***************************************************************
 // TYPEWRITE FOR THE COMPANY SHORT DESC 
 const text1 = "THE PETERSTOUCH MERCHANTS";
-const text2 = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.ure eaque nisiProvident iusto fugiat culpa, quisquam iure eaque nisi aspernaturquisquam iure eaque nisi aspernaquisquam iure eaque nisi asperna"; 
+const text2 = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.ure eaque nisiProvident iusto fugiat culpa, quisquam iure eaque aspernaquisquam iure eaque nisi asperna"; 
               
-const typingSpeed = 80;
+const typingSpeed = 75;
 
 let i = 0;
 let j = 0;
@@ -34,7 +34,7 @@ function typeWriter1() {
     i++;
     setTimeout(typeWriter1, typingSpeed);
   } else {
-    setTimeout(typeWriter2, 500); // Delay before starting the second typewriter
+    setTimeout(typeWriter2, 450); // Delay before starting the second typewriter
   }
 }
 

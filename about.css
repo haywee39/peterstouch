@@ -59,9 +59,12 @@ body{
   
   .abt-texts{
     padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
     height: 145vh;
     width: 70vw;
-    text-align: justify;
+    align-items: center;
+    justify-content: center;
     /* background-color: grey; */
     
   }
@@ -78,15 +81,14 @@ body{
   }
   
   .abt-texts p{
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: 20px;
     color: black;
   }
   /* *********************************************************** */
  
   #believes{
-    margin-top:8vh;
-    /* padding-top: 5vh; */
+    margin-top:3vh;
     display: flex;
     flex-direction:column;
     width:100vw;
@@ -115,8 +117,8 @@ body{
     align-items: center;
     width: 30vw;
     height: 55vh;
-    /* background:rgb(200,210,221); */
-    background-color: lightgrey;
+    background:rgb(200,210,221);
+    /* background-color: ; */
     box-shadow: 10px 10px rgb(19,82,245);
     transform: translateX(100%);
     opacity: 0;
