@@ -13,6 +13,9 @@ body{
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
 
 /* General navbar styles */
+.navbar{
+  background-color: rgb(30,120,154) !important;
+}
    /* Custom CSS for active link */
  .nav-link.active {
   color: rgb(19,82,245) !important;
@@ -58,33 +61,33 @@ body{
     padding-top: 5vh;
     height: 145vh;
     width: 70vw;
-    /* background-color: grey; */
     text-align: justify;
+    /* background-color: grey; */
+    
   }
   
   
-  .abt-texts img{
+  /* .abt-texts img{
     width: 230px;
     height: 230px;
-    /* border-radius: 150px; */
     margin-left:1rem;
     shape-outside: square();
     float: left;
     margin-right:3rem;
-    opacity: 0; /* Start invisible */
-    animation: fadeIn 1s ease-in forwards; /* Apply the fade-in animation */
+    opacity: 0; Start invisible
+    animation: fadeIn 1s ease-in forwards; Apply the fade-in animation
     
   }
   @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: scale(0.5); /* Start small */
+    transform: scale(0.5); Start small
   }
   100% {
     opacity: 1;
-    transform: scale(1); /* Grow to full size */
+    transform: scale(1); Grow to full size
   }
-  }
+  } */
   
   .abt-texts h1{
     font-family: fantasy;
@@ -173,7 +176,7 @@ body{
     width: 28vw;
     height: 35vh;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     /* background-color: blue; */
   }
@@ -184,3 +187,45 @@ body{
     width: 100vw;
     height: 30vh;
   }
+
+/* ************************************************************** */
+.footer{
+  background-color: rgb(30,120,154);
+  color: white;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot{
+  display: flex;
+  width: 18vw;
+  color: white;  
+  justify-content: center;
+  place-items: center;
+  font-size: 16px;
+}
+
+.foot a{
+  color: white;
+  text-decoration: none;  
+}
+.foot a:hover{
+  color: rgb(19,82,245);
+}
+
+.tag{
+ text-shadow:2px 2px 2px grey;
+ animation:bayo 2s ease 1s infinite;
+}
+
+@keyframes bayo{
+
+ 0%{
+    transform:rotateX(-45deg);
+}
+ 50%{
+    transform:rotateY(45deg);
+}
+}

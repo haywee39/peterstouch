@@ -1,11 +1,18 @@
 @media (width < 400px){
 
     .card-content{
-        height: auto;
+        /* height: auto; */
     }
 
     #typewriter{
         width: 95vw;
+        height: 16vh;
+    }
+
+    #typewrite{
+        margin-top: 5vh;
+        width: 90%;
+        height: 25vh;
     }
 }
 
@@ -17,50 +24,35 @@
     #home{
         display: flex;
         justify-content: center;
-        height: auto;
+        /* height: auto; */
     }
 
     .card-content{
-        /* position: relative; */
-        margin-top: 10vh;
-        /* width: 95vw; */
-        width: 100vw;
-        /* height: 68vh;  */
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         /* background-color:blueviolet ; */
     }
 
     .name-desc{
-        margin-top: 10vh;
-        width: 100vw;
-        height:100vh;
+        /* margin-top: 10vh; */
+        width: 95vw;
+        height:40vh;
         /* background-color: aqua; */
     }
 
     #typewriter{
-        display: flex;
         align-items: center;
-        text-align: center;
         font-size: 50px;
         letter-spacing: 0;
         white-space: wrap;
         width: 90vw;
-        height: 28vh;
+        height: 15vh;
+        /* background-color: yellowgreen; */
     }
 
-    .desc{
-        margin-top: 5vh;
-        width: 90%;
-        height: 25vh;
-        font-size: 18px;
+    #typewrite{
+        margin-top: 3vh;
+        width: 80%;
+        height: 20vh;
     }
-    .me{
-        height: 67vh;
-    }
-
+   
 
 }
