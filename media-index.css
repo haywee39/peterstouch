@@ -70,6 +70,22 @@
         height: 29vh;
         /* background-color: brown; */
     }
+    /* ************************** */
+    /* WE PROFER SOLUTIONS */
+    #about{
+        height: auto;
+        flex-direction: column;
+    }
+    .abt-texts{
+        margin-top: 3vh;
+        width: 100vw;
+        height: auto;
+
+    }
+    .logo-comp{
+        width: 70vw;
+        height: 20vh;
+    }
    
 
 }
