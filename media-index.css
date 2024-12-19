@@ -8,7 +8,7 @@
     .card-content{
         margin-top: 10vh;
         padding-top: 0;
-        width: 95vw;
+        width: 98vw;
         height: 70vh;
         background-color:olive ;
     }
@@ -18,7 +18,6 @@
         align-items: center;
         justify-content: center;
         font-size: 50px;
-        /* flex-wrap: wrap; */
         letter-spacing: 0;
         white-space: wrap;
         width: 97vw;
@@ -27,7 +26,6 @@
     }
 
     #typewrite{
-        /* margin-top: 3vh; */
         width: 95vw;
         height: 35vh;
         font-size: 18px;
@@ -83,9 +81,10 @@
         height: auto;
 
     }
-    .abt-texts h1{
+    .abt-texts h3{
         font-weight: bold;
     }
+    /* ************************** */
     .logo-comp{
         width: 100vw;
         height: 50vh;

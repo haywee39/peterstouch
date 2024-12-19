@@ -53,3 +53,24 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", handleScroll);
 });
 
+// *********************************************************************************
+// Select all boxes
+const boxes = document.querySelectorAll('.box');
+
+// Create Intersection Observer
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible'); // Add the 'visible' class
+        observer.unobserve(entry.target); // Stop observing after animation triggers
+      }
+    });
+  },
+  {
+    threshold: 0.1, // Trigger when 10% of the box is visible
+  }
+);
+
+// Observe each box
+boxes.forEach((box) => observer.observe(box));
