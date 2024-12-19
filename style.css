@@ -50,7 +50,7 @@ body{
   justify-content: space-around;
   width: 100vw;
   height: 100vh;
-  background-image: url(./comp-logo/backgrd.jpg);
+  background-image: url(./backgrdimg/backgrd.jpg);
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,11 +175,11 @@ body{
  /* Section with Spinning Boxes */
  .spinning-section {
   width: 100vw;
-  height: 250vh;
+  height: 180vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .container {
@@ -191,9 +191,15 @@ body{
 }
 
 .box {
-  width: 100%;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 90%;
   height: 100%;
-  background-color: #3498db;
+  background-color: rgb(200,210,221);
   opacity: 0; /* Start invisible */
   transform: scale(0) rotate(0deg); /* Start small and not rotated */
   transition: transform 1s ease-out, opacity 1s ease-out;
@@ -208,6 +214,50 @@ body{
   opacity: 0; /* Reset to invisible */
   transform: scale(0) rotate(0deg); /* Reset to original state */
 }
+/* *********************** */
+.audio, .auditorium, .led, .gifts {
+  width: 100%;
+  height: 60%;
+}
+/* ************************** */
+.box-text{
+  position: absolute;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  /* font-weight: bolder; */
+  background-color: red;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.4s ease, height 0.4s ease;
+  
+}
+.box:hover .box-text{
+  visibility: visible;
+  width:100%;
+  height:50%;
+  opacity: 0.7;
+  
+}
+
+.box-text h3{
+  color: black;
+}
+
+.box-text p{
+  /* margin-top: 4vh; */
+  width: 85%;
+  font-size: 20px;
+  color: black;
+}
+
 /* ********************************************************************* */
 .footer{
   background-color: rgb(19,82,245);
