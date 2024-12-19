@@ -73,7 +73,8 @@
     #about{
         height: auto;
         flex-direction: column;
-        height: 170vh;
+        /* height: 170vh; */
+        background-color: red;
     }
     .abt-texts{
         margin-top: 3vh;
@@ -94,18 +95,23 @@
         height: 45vh;
     }
     /* ***************************** */
-    /* Adjust the container to fit smaller screens */
+    .spinning-section{
+        margin-top: 5vh;
+        height: auto;
+        background-color: orange;
+    }
     .container {
       grid-template-columns: 1fr; /* Stack boxes vertically */
       gap: 15px; /* Reduce gap between boxes */
       width: 95%; /* Slightly smaller width for better fit */
       height: auto; /* Allow height to adjust automatically */
+      background-color: purple;
     }
 
     /* Adjust box size for smaller screens */
     .box {
       width: 100%; /* Full width of the container */
-      height: 30vh; /* Reduced height for better vertical fit */
+      height: auto; /* Reduced height for better vertical fit */
     }   
 
 }
