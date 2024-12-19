@@ -57,20 +57,22 @@ document.addEventListener("DOMContentLoaded", function () {
 // Select all boxes
 const boxes = document.querySelectorAll('.box');
 
-// Create Intersection Observer
-const observer = new IntersectionObserver(
-  (entries, observer) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible'); // Add the 'visible' class
-        observer.unobserve(entry.target); // Stop observing after animation triggers
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            entry.target.classList.remove('reset'); // Ensure reset isn't applied during visibility
+          } else {
+            entry.target.classList.remove('visible');
+            entry.target.classList.add('reset'); // Reset state when scrolled out
+          }
+        });
+      },
+      {
+        threshold: 0.1, // Trigger when 10% of the box is visible
       }
-    });
-  },
-  {
-    threshold: 0.1, // Trigger when 10% of the box is visible
-  }
-);
+    );
 
-// Observe each box
-boxes.forEach((box) => observer.observe(box));
+    // Observe each box
+    boxes.forEach((box) => observer.observe(box));

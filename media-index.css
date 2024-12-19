@@ -8,19 +8,19 @@
     .card-content{
         margin-top: 10vh;
         padding-top: 0;
-        width: 98vw;
+        width: 100vw;
         height: 70vh;
-        background-color:olive ;
+        /* background-color:olive ; */
     }
 
     #typewriter{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 50px;
+        font-size: 47px;
         letter-spacing: 0;
         white-space: wrap;
-        width: 97vw;
+        width: 98vw;
         height: 30vh;
         /* background-color: orangered; */
     }
@@ -93,6 +93,19 @@
         width: 55vw; 
         height: 45vh;
     }
-   
+    /* ***************************** */
+    /* Adjust the container to fit smaller screens */
+    .container {
+      grid-template-columns: 1fr; /* Stack boxes vertically */
+      gap: 15px; /* Reduce gap between boxes */
+      width: 95%; /* Slightly smaller width for better fit */
+      height: auto; /* Allow height to adjust automatically */
+    }
+
+    /* Adjust box size for smaller screens */
+    .box {
+      width: 100%; /* Full width of the container */
+      height: 30vh; /* Reduced height for better vertical fit */
+    }   
 
 }
