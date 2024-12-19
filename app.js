@@ -1,24 +1,5 @@
 
-// TYPEWRITE FOR THE COMPANY NAME 
-// const text = "THE PETERSTOUCH MERCHANTS"; 
-// const typingSpeed = 80; 
-
-// let i = 0;
-
-// function typeWriter() {
-//   const textElement = document.getElementById("text");
-//   if (i < text.length) {
-//     textElement.textContent += text.charAt(i);
-//     i++;
-//     setTimeout(typeWriter, typingSpeed);
-//   }
-// }
-
-// window.onload = typeWriter;
-
-
-// ^^^^^^^^^^***************************************************************
-// TYPEWRITE FOR THE COMPANY SHORT DESC 
+// TYPEWRITE FOR THE COMPANY NAME AND SHORT DESC 
 const text1 = "THE PETERSTOUCH MERCHANTS";
 const text2 = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.ure eaque nisiProvident iusto fugiat culpa, quisquam iure eaque aspernaquisquam iure eaque nisi asperna"; 
               
@@ -48,4 +29,27 @@ function typeWriter2() {
 }
 
 window.onload = typeWriter1;
+// ***************************************************************
+
+// COMPANY LOGO APPEARS ON Slide in TO THE POINT 
+
+document.addEventListener("DOMContentLoaded", function () {
+  const image = document.querySelector(".slide-in-image");
+
+  function handleScroll() {
+      const imageRect = image.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+
+      // Check if the image is in the viewport
+      if (imageRect.top < windowHeight && imageRect.bottom > 0) {
+          image.classList.add("visible");
+      } 
+      // Remove 'visible' class only when the image is completely out of view
+      else if (imageRect.bottom <= 0 || imageRect.top >= windowHeight) {
+          image.classList.remove("visible");
+      }
+  }
+
+  window.addEventListener("scroll", handleScroll);
+});
 

@@ -75,6 +75,7 @@
     #about{
         height: auto;
         flex-direction: column;
+        height: 170vh;
     }
     .abt-texts{
         margin-top: 3vh;
@@ -82,9 +83,16 @@
         height: auto;
 
     }
+    .abt-texts h1{
+        font-weight: bold;
+    }
     .logo-comp{
-        width: 70vw;
-        height: 20vh;
+        width: 100vw;
+        height: 50vh;
+    }
+    .slide-in-image {
+        width: 55vw; 
+        height: 45vh;
     }
    
 
