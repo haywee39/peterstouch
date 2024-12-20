@@ -198,7 +198,7 @@ body{
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   width: 90%;
-  height: 90%;
+  height: 95%;
 }
 
 .box {
@@ -271,6 +271,7 @@ body{
 
 /* ********************************************************************* */
 .footer{
+  margin-top: 20px;
   background-color: rgb(19,82,245);
   color: white;
   height: 15vh;

@@ -31,8 +31,8 @@ const backgroundImages = [
   "./backgrdimg/backgrd.jpg",
   "./backgrdimg/back1.jpg",
   "./backgrdimg/mic-conf.jpg",
-  "./backgrdimg/conf-seat.jpg",
-  // "./backgrdimg/back4.jpg"
+  "./backgrdimg/conf-seat.jpg"
+  
 ];
 
 let currentImageIndex = 0;
