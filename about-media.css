@@ -1,6 +1,6 @@
-@media (width < 400px){
+@media (width < 360px){
   #about{
-    margin-top: 24vh;
+    margin-top: 240vh;
     height: 100%;
     background-color: blueviolet;
     margin-bottom: 10vh;
@@ -36,10 +36,20 @@
 
   .belief-container{
     height: auto;
+    width: 100vw;
+    background-color: blue;
+  }
+  .belief-each {
+    display: flex;
+    width: 97vw;
+    height: 40vh;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* padding-left: 0; */
   }
 
   .belief-each h1{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
   }
 
@@ -49,8 +59,8 @@
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
-    width: 97%;
-    height: 23vh;
+    width: 97vw;
+    height: 28vh;
     /* text-align: center; */
     font-size: 16px;
     /* color: white; */
