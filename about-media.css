@@ -15,10 +15,10 @@
   }
 
   .abt-texts h1{
-    font-size: 23px;
+    /* font-size: 23px; */
     /* text-align: justify; */
     /* font-weight: bolder; */
-    background-color: green;
+    background-color: orange;
   }
 
   .abt-texts p{
@@ -31,27 +31,27 @@
     /* margin-top: 25vh; */
     display: flex;
     width: 100vw;
-    height: 200vh !important;
+    height: 180vh !important;
     overflow-y: hidden;
     overflow-x: hidden;
 
-    background-color: orange;
+    /* background-color: orange; */
   }
 
   .belief-container{
-    height: 180vh !important;
+    height: 160vh !important;
     width: 100vw;
     background-color: black;
   }
   .belief-each {
     display: flex;
-    width: 97vw;
+    width: 98vw;
     height: 50vh !important;
     /* text-align: center; */
     justify-content: center;
     align-items: center;
     /* padding-left: 0; */
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 
   .belief-each h1{
@@ -63,10 +63,10 @@
 
   .belief-each p {
      width: 95vw;
-    height: 35vh !important;
+    height: 33vh !important;
     /* text-align: center; */
-    font-size: 16px;
-    background-color: blue;
+    /* font-size: 16px; */
+    /* background-color: blue; */
   }
 
     
