@@ -20,8 +20,8 @@
         font-size: 47px;
         letter-spacing: 0;
         white-space: wrap;
-        width: 98vw;
-        height: 30vh;
+        width: 98vw !important;
+        height: 30vh !important;
         /* background-color: orangered; */
     }
 
