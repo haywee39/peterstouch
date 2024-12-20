@@ -16,14 +16,14 @@ body{
 .navbar{
   background-color: rgb(19,82,245) !important;
 }
-   /* Custom CSS for active link */
+   /*CSS for active link */
  .nav-link.active {
   color: white !important;
   text-decoration: underline;
   text-underline-offset: 10px; 
 }
 
-/* Custom navbar link hover effect */
+/*navbar link hover effect */
 .nav-link {
   color: #fff; /* Default link color */
   margin-left: 60px;
@@ -36,7 +36,6 @@ body{
 
 /* Change the toggler icon to white */
 .navbar-toggler-icon {
-  /* background-color: white; */
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
@@ -166,6 +165,7 @@ body{
     display: flex;
     width: 100vw;
     height: 30vh;
+    background-color: aqua;
   }
 
 /* ************************************************************** */
