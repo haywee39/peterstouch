@@ -31,6 +31,17 @@
         font-size: 18px;
         /* background-color: orange; */
     }
+
+    .box-text h5{
+        color: white;
+      }
+      
+      .box-text p{
+        /* margin-top: 4vh; */
+        width: 85%;
+        font-size: 18px !important;
+        color: white;
+      }
 }
 
 
