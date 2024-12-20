@@ -1,15 +1,41 @@
 @media (width < 400px){
+  #about{
+    margin-top: 24vh;
+    height: 100%;
+    background-color: blueviolet;
+    margin-bottom: 10vh;
+  }
+
+  .abt-texts{
+    height: auto;
+    width: 100vw;
+    background-color: yellow;
+    margin-bottom: 200px;
+  }
 
   .abt-texts h1{
-    font-size: 27px;
+    /* font-size: 27px; */
     /* text-align: justify; */
     /* font-weight: bolder; */
-    /* background-color: blue; */
+    background-color: blue;
   }
 
   .abt-texts p{
-    padding-top: 10px;
+    background-color: red;
+    /* padding-top: 10px; */
     font-size: 18px;
+  }
+/* *************************** */
+  #believes{
+    /* margin-top: 25vh; */
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: orange;
+  }
+
+  .belief-container{
+    height: auto;
   }
 
   .belief-each h1{
@@ -17,12 +43,14 @@
     font-weight: bold;
   }
 
+  
+
   .belief-each p {
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     width: 97%;
-    height: 22vh;
+    height: 23vh;
     /* text-align: center; */
     font-size: 16px;
     /* color: white; */
@@ -35,15 +63,17 @@
 
 
 
-
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 @media (width < 912px) {
     #about{
         /* padding-top: 12vh; */
+        display: flex;
         width: 100vw;
         height: 200vh;
         /* background-color: red; */
     }
     .abt-texts{
+      display: flex;
         padding-top: 3vh;
         width: 95vw;
         height: auto;
@@ -54,7 +84,7 @@
         font-size:25px;
         text-align: justify;
         font-weight: bolder;
-        text-decoration: none;
+        /* text-decoration: none; */
         /* background-color: blue; */
       }
 
