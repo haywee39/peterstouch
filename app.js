@@ -31,8 +31,7 @@ const backgroundImages = [
   "./backgrdimg/backgrd.jpg",
   "./backgrdimg/back1.jpg",
   "./backgrdimg/mic-conf.jpg",
-  "./backgrdimg/conf-seat.jpg"
-  
+  "./backgrdimg/conf-seat.jpg"  
 ];
 
 let currentImageIndex = 0;
@@ -46,7 +45,7 @@ function rotateBackground() {
 window.onload = () => {
   typeWriter1();
   rotateBackground();
-  setInterval(rotateBackground, 5000); // Change background every 5 seconds
+  setInterval(rotateBackground, 3000); // Change background every 5 seconds
 };
 
 // ************************************************************************
