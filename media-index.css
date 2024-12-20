@@ -113,6 +113,26 @@
       width: 100%; /* Full width of the container */
       height: 70vh; /* Reduced height for better vertical fit */
       /* background-color: orange; */
-    }   
+    } 
+    
+    
+
+
+
+
+    /* **************************************8 */
+    footer{
+        display: flex;
+        width: 100vw;
+        height: 12vh;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .foot{
+        display: flex;
+        width: 100vw;
+        height: 100%;
+      }
 
 }

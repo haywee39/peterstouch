@@ -43,8 +43,8 @@ body{
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
   
   /* END: STYLING FOR THE NAVBAR ENDS HERE */
-
-#home{
+/* ***********************************************************8 */
+/* #home{
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -54,8 +54,19 @@ body{
   background-position:center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 /* ************************* */
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out; /* Smooth transition */
+}
 
 
 .card-content{
@@ -88,7 +99,7 @@ body{
    /* background-color: red; */
 }
 
-@keyframes blink {
+/* @keyframes blink {
   50% {
     border-color: transparent;
   }
@@ -96,7 +107,7 @@ body{
 
 #typewriter {
   animation: blink 0.7s step-end infinite;
-}
+} */
 
 /* ***************************************** */
 
@@ -248,14 +259,14 @@ body{
 }
 
 .box-text h3{
-  color: black;
+  color: white;
 }
 
 .box-text p{
   /* margin-top: 4vh; */
   width: 85%;
   font-size: 20px;
-  color: black;
+  color: white;
 }
 
 /* ********************************************************************* */
