@@ -15,10 +15,11 @@
   }
 
   .abt-texts h1{
-    /* font-size: 23px; */
+    /* word-wrap: break; */
+    font-size: 23px !important;
     /* text-align: justify; */
     /* font-weight: bolder; */
-    background-color: orange;
+    background-color: red;
   }
 
   .abt-texts p{
@@ -86,14 +87,14 @@
     }
     .abt-texts{
       display: flex;
-        padding-top: 3vh;
+        padding-top: 2vh;
         width: 95vw;
         height: auto;
         /* background-color: green; */
       }
      
       .abt-texts h1{
-        font-family: fantasy !important;
+        /* font-family: fantasy !important; */
         font-size:25px;
         text-align: justify;
         font-weight: bolder;
