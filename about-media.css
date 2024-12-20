@@ -32,7 +32,7 @@
     /* margin-top: 25vh; */
     display: flex;
     width: 100vw;
-    height: 180vh !important;
+    height: 182vh !important;
     overflow-y: hidden;
     overflow-x: hidden;
 
@@ -40,14 +40,14 @@
   }
 
   .belief-container{
-    height: 160vh !important;
+    height: 162vh !important;
     width: 100vw;
-    background-color: black;
+    /* background-color: black; */
   }
   .belief-each {
     display: flex;
     width: 98vw;
-    height: 50vh !important;
+    height: 48vh !important;
     /* text-align: center; */
     justify-content: center;
     align-items: center;
