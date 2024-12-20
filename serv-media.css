@@ -1,0 +1,22 @@
+@media  (width < 912px){
+    
+
+
+     /* **************************************8 */
+     footer{
+        /* margin-top: 20px; */
+        display: flex;
+        width: 100vw;
+        height: 12vh;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .foot{
+        display: flex;
+        width: 100vw;
+        height: 100%;
+      }
+
+    
+}
