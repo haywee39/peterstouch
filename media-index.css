@@ -74,7 +74,7 @@
         height: auto;
         flex-direction: column;
         /* height: 170vh; */
-        background-color: red;
+        /* background-color: red; */
     }
     .abt-texts{
         margin-top: 3vh;
@@ -98,20 +98,21 @@
     .spinning-section{
         margin-top: 5vh;
         height: auto;
-        background-color: orange;
+        /* background-color: orange; */
     }
-    .container {
+    .box-container {
       grid-template-columns: 1fr; /* Stack boxes vertically */
       gap: 15px; /* Reduce gap between boxes */
       width: 95%; /* Slightly smaller width for better fit */
       height: auto; /* Allow height to adjust automatically */
-      background-color: purple;
+      /* background-color: purple; */
     }
 
     /* Adjust box size for smaller screens */
     .box {
       width: 100%; /* Full width of the container */
-      height: auto; /* Reduced height for better vertical fit */
+      height: 70vh; /* Reduced height for better vertical fit */
+      /* background-color: orange; */
     }   
 
 }

@@ -182,7 +182,7 @@ body{
   /* background-color: red; */
 }
 
-.container {
+.box-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
