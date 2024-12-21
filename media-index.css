@@ -1,4 +1,5 @@
-@media (width < 400px){
+/* @media (width < 400px){ */
+@media screen and (max-width: 767px) {
 
     #home{
         display: flex;
