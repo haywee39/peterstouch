@@ -125,7 +125,32 @@
       height: 70vh; /* Reduced height for better vertical fit */
       /* background-color: orange; */
     } 
-    
+    /* *********************************************************** */
+    /* MEDIA QUERY FOR 360 IMG SLIDER  */
+    @media screen and (max-width: 1023px) {
+        .banner .slider{
+            width: 160px;
+            height: 200px;
+            left: calc(50% - 80px);
+        }
+        .banner .slider .item{
+            transform: 
+                rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+                translateZ(250px);
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .banner .slider{
+            width: 100px;
+            height: 150px;
+            left: calc(50% - 50px);
+        }
+        .banner .slider .item{
+            transform: 
+                rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+                translateZ(150px);
+        }
+    }
     
 
 
