@@ -31,7 +31,7 @@ body{
 }
 
 .nav-link:hover {
-  color: white; /* Hover color */
+  color: lightblue; /* Hover color */
 }
 
 /* Change the toggler icon to white */
@@ -47,14 +47,108 @@ body{
 
 
   /* ********************************************************* */
+/* STYLE FOR THE 360 IMAGE SLIDER */
 
-  #any{
-    display: flex;
-    width: 100vw;
-    height: 30vh;
-    background-color: aqua;
+#serv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 150vh;
+  /* background-color: orange; */
+  
+
+}
+
+.banner{
+  margin-top: 20vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  /* background-color: aqua; */
+}
+
+/* .banner img{
+  width: 40vw;
+  height: 35vh;
+  background-color: rgb(19,82,245) ;
+} */
+
+
+.banner .slider{
+  /* background-color: rgb(19,82,245); */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 250px;
+  top: 10%;
+  left: calc(50% - 100px);
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  animation: autoRun 20s linear infinite;
+  z-index: 2;
+}
+@keyframes autoRun{
+  from{
+      transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+  }to{
+      transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
   }
+}
 
+.banner .slider .item{
+  position: absolute;
+  inset: 0 0 0 0;
+  transform: 
+      rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+      translateZ(500px);
+}
+.banner .slider .item img{
+  width: 80%;
+  height: 90%;
+  object-fit: cover;
+}
+
+
+/* *************************************************************************8 */
+
+.serv-texts{
+  /* padding-top: 5vh; */
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 50vw;
+  align-items: center;
+  justify-content: center;
+  /* background-color: grey; */
+  
+}
+
+ 
+.serv-texts h3{
+  font-family: fantasy;
+  /* font-size: 45px; */
+  color: black;
+  text-align: center; 
+  text-decoration: underline  rgb(19,82,245);
+  text-underline-offset: 10px; 
+  
+}
+
+.serv-texts p{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  color: black;
+}
 /* ************************************************************** */
 .footer{
   /* background-color: rgb(30,120,154); */

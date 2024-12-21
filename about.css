@@ -31,7 +31,7 @@ body{
 }
 
 .nav-link:hover {
-  color: white; /* Hover color */
+  color: lightblue; /* Hover color */
 }
 
 /* Change the toggler icon to white */
