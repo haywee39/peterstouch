@@ -1,4 +1,5 @@
-@media (width < 400px){
+/* @media (width < 400px){ */
+@media screen and (max-width: 767px) {
   #about{
     margin-top: 20vh;
     padding-top: 0vh;
@@ -64,7 +65,8 @@
 
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
-@media (width < 912px) {
+/* @media (width < 912px) { */
+@media screen and (max-width: 1023px) {
     #about{
         /* padding-top: 12vh; */
         display: flex;
