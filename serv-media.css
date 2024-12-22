@@ -90,10 +90,15 @@
     }
   
     .right-serv, .left-serv {
+      gap: 10px;
       width: 90vw; /* Adjust width for smaller screens */
       height: auto; /* Adjust height for content */
       /* background-color: orange; */
     }
+
+    .rightt-serv h1, .left-serv h1{
+      font-weight: bold;
+    } 
   
     .right-serv p, .left-serv p {
       font-size: 18px; /* Slightly smaller font size for text */
