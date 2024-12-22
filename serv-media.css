@@ -10,6 +10,29 @@
               rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
               translateZ(150px);
       }
+
+      /* ************************************************************ */
+
+        .right-container, .left-container {
+          width: 100%;
+          height: auto;
+          padding: 10px; /* Add some padding for smaller devices */
+        }
+      
+        .right-serv, .left-serv {
+          width: 100%; /* Full-width on smaller screens */
+          margin-bottom: 20px; /* Add spacing between items */
+        }
+      
+        .right-serv p, .left-serv p {
+          font-size: 16px; /* Smaller text for mobile screens */
+        }
+      
+        .right-serv h1, .left-serv h1 {
+          font-size: 20px; /* Adjust heading size for mobile */
+        }
+      
+      
   }
 
 
@@ -53,6 +76,26 @@
         font-weight: bold;
     }
   /* ************************** */
+    .right-container, .left-container {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .right-serv, .left-serv {
+      width: 90vw; /* Adjust width for smaller screens */
+      height: auto; /* Adjust height for content */
+    }
+  
+    .right-serv p, .left-serv p {
+      font-size: 18px; /* Slightly smaller font size for text */
+    }
+  
+    .right-serv h1, .left-serv h1 {
+      font-size: 24px; /* Adjust heading size */
+    }
+  
+  
   
   /* ********************************* */
 
