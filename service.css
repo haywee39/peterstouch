@@ -156,7 +156,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  /* background-color: red; */
 }
 /* START ITEMS ON THE LEFT  */
 .left-container {
@@ -166,7 +166,7 @@ body{
   height: 150vh;
   justify-content: space-evenly;
   align-items: center;
-  background-color: orange;
+  /* background-color: orange; */
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -178,7 +178,7 @@ body{
   align-items: center;
   width: 30vw;
   height: 45vh;
-  background:rgb(200,210,221);
+  /* background:rgb(200,210,221); */
   transform: translateX(100%);
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
@@ -219,6 +219,15 @@ body{
   color: black;
   /* background-color: blue; */
 }
+
+/* ************************************************** */
+.vertical-line {
+  width: 5px; /* Thickness of the line */
+  height: 70%; /* Full height or specify a value like 200px */
+  background-color: rgb(19,82,245); /* Line color */
+  margin: 0 20px; /* Space around the line */
+}
+
 /* ********************************************************* */
 /* START ITEMS ON THE RIGHT */
 .right-container {
@@ -228,7 +237,7 @@ body{
   height: 150vh;
   justify-content: space-evenly;
   align-items: center;
-  background-color: orange;
+  /* background-color: orange; */
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -240,7 +249,7 @@ body{
   align-items: center;
   width: 30vw;
   height: 45vh;
-  background: rgb(200, 210, 221);
+  /* background: rgb(200, 210, 221); */
   transform: translateX(-100%); /* Start off-screen to the left */
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
