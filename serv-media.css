@@ -79,7 +79,8 @@
     #list-serve{
       width: 100vw;
       height: auto;
-      background-color: yellow;
+      flex-direction: column;
+      /* background-color: yellow; */
     }
     .right-container, .left-container {
       width: 100%;
@@ -89,16 +90,16 @@
     }
   
     .right-serv, .left-serv {
-      width: 96vw; /* Adjust width for smaller screens */
+      width: 90vw; /* Adjust width for smaller screens */
       height: auto; /* Adjust height for content */
-      background-color: orange;
+      /* background-color: orange; */
     }
   
     .right-serv p, .left-serv p {
       font-size: 18px; /* Slightly smaller font size for text */
-      width: 100%;
+      width: 90%;
       height: 18vh;
-      background-color: red;
+      /* background-color: red; */
     }
   
     .right-serv h1, .left-serv h1 {
