@@ -96,11 +96,12 @@
       /* background-color: orange; */
     }
 
-    .rightt-serv h1, .left-serv h1{
+    .right-serv h1, .left-serv h1{
       font-weight: bold;
     } 
   
     .right-serv p, .left-serv p {
+      /* gap: 10px; */
       font-size: 18px; /* Slightly smaller font size for text */
       width: 90%;
       height: 18vh;
