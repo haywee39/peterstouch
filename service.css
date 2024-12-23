@@ -11,12 +11,10 @@ body{
 
 
 /* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
-
-/* General navbar styles */
 .navbar{
   background-color: rgb(19,82,245) !important;
 }
-   /*CSS for active link */
+   /*active link */
  .nav-link.active {
   color: white !important;
   text-decoration: underline;
@@ -47,7 +45,6 @@ body{
 
 
   /* ********************************************************* */
-/* STYLE FOR THE 360 IMAGE SLIDER */
 
 #serv{
   display: flex;
@@ -55,29 +52,56 @@ body{
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 160vh;
-  /* background-color: purple; */
+  height: 170vh;
+  background-color: purple;
   
 
 }
+/* ******************************************** */
+.serv-texts{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 53vw;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  
+}
+
+ 
+.serv-texts h3{
+  font-family: fantasy;
+  color: black;
+  text-align: center; 
+  text-decoration: underline  rgb(19,82,245);
+  text-underline-offset: 10px; 
+  
+}
+
+.serv-texts p{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+/* ************************************************************** */
+/* STYLE FOR THE 360 IMAGE SLIDER */
 
 .banner{
+  margin-top: 5px;
   width: 100vw;
-  height: 135vh;
+  height: 105vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   overflow: hidden;
   position: relative;
-  /* background-color: aqua; */
+  background-color: aqua;
 }
 
-/* .banner img{
-  width: 40vw;
-  height: 35vh;
-  background-color: rgb(19,82,245) ;
-} */
 
 
 .banner .slider{
@@ -119,54 +143,25 @@ body{
 
 /* *************************************************************************8 */
 
-.serv-texts{
-  margin-top: 22vh;
-  display: flex;
-  flex-direction: column;
-  height: 30vh;
-  width: 50vw;
-  align-items: center;
-  justify-content: center;
-  /* background-color: grey; */
-  
-}
 
- 
-.serv-texts h3{
-  font-family: fantasy;
-  /* font-size: 45px; */
-  color: black;
-  text-align: center; 
-  text-decoration: underline  rgb(19,82,245);
-  text-underline-offset: 10px; 
-  
-}
-
-.serv-texts p{
-  text-align: center;
-  padding-top: 10px;
-  font-size: 20px;
-  color: black;
-}
-/* ************************************************************** */
 /* Section styling */
 #list-serve {
   width: 100vw;
-  height: 150vh;
+  height: 155vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: red; */
+  background-color: red;
 }
 /* START ITEMS ON THE LEFT  */
 .left-container {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 45%;
   height: 150vh;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: orange; */
+  background-color: orange;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -176,9 +171,9 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30vw;
+  width: 40vw;
   height: 45vh;
-  /* background:rgb(200,210,221); */
+  background:rgb(200,210,221);
   transform: translateX(100%);
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
@@ -198,7 +193,7 @@ body{
   }
 }
  
-.left-serv h1 {
+.left-serv h3 {
   font-family: fantasy;
   letter-spacing: 1px;
   font-size: 30px;
@@ -209,23 +204,24 @@ body{
 }
 
 .left-serv p {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 28vw;
-  height: 30vh;
+  width: 35vw;
+  height: 25vh;
   text-align: center;
   font-size: 20px;
   color: black;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 /* ************************************************** */
 .vertical-line {
-  width: 5px; /* Thickness of the line */
-  height: 70%; /* Full height or specify a value like 200px */
-  background-color: rgb(19,82,245); /* Line color */
-  margin: 0 20px; /* Space around the line */
+  width: 5px;
+  height: 60%;
+  background-color: rgb(19,82,245); 
+  /* margin: 0 20px; */
 }
 
 /* ********************************************************* */
@@ -233,11 +229,11 @@ body{
 .right-container {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 45%;
   height: 150vh;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: orange; */
+  background-color: orange;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -247,9 +243,9 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30vw;
+  width: 40vw;
   height: 45vh;
-  /* background: rgb(200, 210, 221); */
+  background: rgb(200, 210, 221);
   transform: translateX(-100%); /* Start off-screen to the left */
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
@@ -270,7 +266,7 @@ body{
   }
 }
 
-.right-serv h1 {
+.right-serv h3 {
   font-family: fantasy;
   letter-spacing: 1px;
   font-size: 30px;
@@ -281,20 +277,20 @@ body{
 }
 
 .right-serv p {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 28vw;
-  height: 30vh;
+  width: 35vw;
+  height: 25vh;
   text-align: center;
   font-size: 20px;
   color: black;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 /* &******************************************************************************** */
 .footer{
-  /* background-color: rgb(30,120,154); */
   background-color: rgb(19,82,245);
   color: white;
   height: 15vh;

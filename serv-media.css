@@ -48,10 +48,25 @@
 /* **********************************************************************************8 */
    /* MEDIA QUERY FOR 360 IMG SLIDER  */
    @media screen and (max-width: 1023px) {
+    #serv{
+      height: 100vh;
+    }
+    .serv-texts{
+      margin-top: 5vh;
+      width: 90vw;
+      height: 35vh;
+    }
+    .serv-texts h3{
+        font-weight: bold;
+    }
+  /* ************************** */
     .banner{
+      margin-top: 20px;
       height: 40vh;
+      background-color: orange;
     }
     .banner .slider{
+        padding-top: 30px;
         width: 160px;
         height: 200px;
         left: calc(50% - 80px);
@@ -62,20 +77,7 @@
             translateZ(250px);
     }
     /* **************************************** */
-    #serv{
-      height: auto;
-    }
-    .serv-texts{
-      /* margin-top: 3vh; */
-      width: 90vw;
-      height: auto;
-
-    }
-
-    .serv-texts h3{
-        font-weight: bold;
-    }
-  /* ************************** */
+   
     #list-serve{
       width: 100vw;
       height: auto;
@@ -96,20 +98,22 @@
       /* background-color: orange; */
     }
 
-    .right-serv h1, .left-serv h1{
+    .right-serv h3, .left-serv h3{
       font-weight: bold;
     } 
   
     .right-serv p, .left-serv p {
-      /* gap: 10px; */
-      font-size: 18px; /* Slightly smaller font size for text */
+      /* font-size: 18px; */
       width: 90%;
       height: 18vh;
-      /* background-color: red; */
     }
   
-    .right-serv h1, .left-serv h1 {
-      font-size: 24px; /* Adjust heading size */
+    .right-serv h3, .left-serv h3 {
+      /* font-size: 24px;  */
+    }
+
+    .vertical-line{
+      display: none;
     }
   
   /* ********************************* */
