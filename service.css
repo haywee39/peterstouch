@@ -53,7 +53,7 @@ body{
   align-items: center;
   width: 100vw;
   height: 170vh;
-  background-color: purple;
+  /* background-color: purple; */
   
 
 }
@@ -66,7 +66,7 @@ body{
   width: 53vw;
   align-items: center;
   justify-content: center;
-  background-color: grey;
+  /* background-color: grey; */
   
 }
 
@@ -99,7 +99,7 @@ body{
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 
@@ -151,19 +151,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
-}
-/* START ITEMS ON THE LEFT  */
-.left-container {
-  display: flex;
-  flex-direction: column;
-  width: 45%;
-  height: 150vh;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: orange;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  /* background-color: red; */
 }
 
 .left-serv {
@@ -172,8 +160,8 @@ body{
   justify-content: center;
   align-items: center;
   width: 40vw;
-  height: 45vh;
-  background:rgb(200,210,221);
+  height: 40vh;
+  /* background:rgb(200,210,221); */
   transform: translateX(100%);
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
@@ -192,30 +180,6 @@ body{
     opacity: 1;
   }
 }
- 
-.left-serv h3 {
-  font-family: fantasy;
-  letter-spacing: 1px;
-  font-size: 30px;
-  text-align: center;
-  color: black !important;
-  text-decoration: underline rgb(19,82,245);
-  text-underline-offset: 10px;
-}
-
-.left-serv p {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35vw;
-  height: 25vh;
-  text-align: center;
-  font-size: 20px;
-  color: black;
-  background-color: blue;
-}
-
 /* ************************************************** */
 .vertical-line {
   width: 5px;
@@ -226,14 +190,14 @@ body{
 
 /* ********************************************************* */
 /* START ITEMS ON THE RIGHT */
-.right-container {
+.right-container, .left-container {
   display: flex;
   flex-direction: column;
   width: 45%;
   height: 150vh;
   justify-content: space-evenly;
   align-items: center;
-  background-color: orange;
+  /* background-color: orange; */
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -244,8 +208,8 @@ body{
   justify-content: center;
   align-items: center;
   width: 40vw;
-  height: 45vh;
-  background: rgb(200, 210, 221);
+  height: 40vh;
+  /* background: rgb(200, 210, 221); */
   transform: translateX(-100%); /* Start off-screen to the left */
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
@@ -266,27 +230,26 @@ body{
   }
 }
 
-.right-serv h3 {
+.right-serv h3, .left-serv h3 {
+  /* margin-top: 70px; */
   font-family: fantasy;
-  letter-spacing: 1px;
-  font-size: 30px;
   text-align: center;
   color: black !important;
   text-decoration: underline rgb(19, 82, 245);
   text-underline-offset: 10px;
 }
 
-.right-serv p {
-  margin-top: 20px;
+.right-serv p, .left-serv p {
+  /* margin-top: 30px; */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 35vw;
-  height: 25vh;
+  height: 23vh;
   text-align: center;
   font-size: 20px;
   color: black;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 /* &******************************************************************************** */
