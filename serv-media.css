@@ -2,7 +2,7 @@
   @media screen and (max-width: 767px) {
       .banner .slider{
           width: 100px;
-          height: 150px;
+          height: 160px;
           left: calc(50% - 50px);
       }
       .banner .slider .item{
@@ -15,7 +15,7 @@
       .serv-texts{
         margin-top: 12vh;
         width: 95vw;
-        height: 38vh;
+        height: 40vh;
       }
         .right-container, .left-container {
           width: 100%;
@@ -33,7 +33,7 @@
       
         .right-serv p, .left-serv p {
           width: 95%;
-          height: 25vh;
+          height: 30vh;
           /* font-size: 16px; Smaller text for mobile screens */
         }
       
