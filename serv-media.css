@@ -12,16 +12,22 @@
       }
 
       /* ************************************************************ */
-
+      .serv-texts{
+        margin-top: 12vh;
+        width: 95vw;
+        height: 38vh;
+      }
         .right-container, .left-container {
           width: 100%;
           height: auto;
+          gap: 20px;
           padding: 10px; /* Add some padding for smaller devices */
         }
       
         .right-serv, .left-serv {
           width: 100%; /* Full-width on smaller screens */
           height: auto;
+          /* gap: 200px; */
           /* margin-bottom: 20px; Add spacing between items */
         }
       
@@ -59,7 +65,7 @@
       height: 100vh;
     }
     .serv-texts{
-      margin-top: 10vh;
+      margin-top: 12vh;
       width: 90vw;
       height: 35vh;
     }
