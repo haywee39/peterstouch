@@ -27,7 +27,7 @@
       
         .right-serv p, .left-serv p {
           width: 95%;
-          height: 17vh;
+          height: 25vh;
           /* font-size: 16px; Smaller text for mobile screens */
         }
       
@@ -89,7 +89,7 @@
       width: 100vw;
       height: auto;
       flex-direction: column;
-      /* background-color: yellow; */
+      background-color: yellow;
     }
     .right-container, .left-container {
       width: 100%;
@@ -102,7 +102,7 @@
       /* gap: 10px; */
       width: 95vw; /* Adjust width for smaller screens */
       height: auto; /* Adjust height for content */
-      /* background-color: orange; */
+      background-color: orange;
     }
 
     .right-serv h3, .left-serv h3{
@@ -111,9 +111,11 @@
     } 
   
     .right-serv p, .left-serv p {
+      display: flex;
+      align-items: first baseline;
       width: 95%;
-      height: 14vh;
-      /* background-color: red; */
+      height: 20vh;
+      background-color: red;
     }
   
     .vertical-line{
