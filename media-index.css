@@ -129,15 +129,24 @@
 
     /* *********************************** */
     #why{
-        margin-top: 30px;
+        margin-top: 40px;
         height: auto;
         width: 100vw;
         display: flex;
         flex-direction: column;
     }
     .banner{
-        width: 40%;
+        width: 50%;
         height: 30vh;
+    }
+
+    .banner .slider{
+        display: flex;
+  align-items: center;
+  justify-content: center;
+        /* width: 200px !important; */
+        /* height: 250px !important; */
+        /* background-color: red; */
     }
     .banner .slider img{
         width: 100%;
@@ -145,10 +154,13 @@
     }
 
     .why-container{
-        margin-top: 20px;
+        margin-top: 30px;
         margin-left: 0;
         width: 95%;
         height: auto;
+    }
+    .why-container h3{
+        font-weight: bold;
     }
     
 
