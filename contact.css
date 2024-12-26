@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-color: rgb(212,220,231);
+}
+
+
+/* START:STYLING  FOR THE NAVBAR STARTS FROM HERE */
+
+.navbar{
+  background-color: rgb(19,82,245) !important;
+}
+ /* CSS for active link */
+ .nav-link.active {
+  color: white !important;
+  text-decoration: underline;
+  text-underline-offset: 10px; 
+}
+
+/*navbar link hover effect */
+.nav-link {
+  color: #fff; /* Default link color */
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: lightblue;
+}
+
+/* Change the toggler icon to white */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+  
+  /* END: STYLING FOR THE NAVBAR ENDS HERE */
+/* ***********************************************************8 */
+#cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 170vh;
+    /* background-color: purple; */
+    
+  
+  }
+  /* ******************************************** */
+.contact-texts{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 53vw;
+    align-items: center;
+    justify-content: center;
+    /* background-color: grey; */
+    
+  }
+  
+   
+  .contact-texts h3{
+    /* margin-bottom: 100px; */
+    font-family: fantasy;
+    color: black;
+    text-align: center; 
+    text-decoration: underline  rgb(19,82,245);
+    text-underline-offset: 10px; 
+    
+  }
+  
+  .contact-texts p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+  }
+  /* ************************************************************** */
+
+  /* ****************************************** */
+.contact-form{
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 105vh;
+  /* background-color: orange; */
+}
+
+.cont-form{
+  /* margin-top: 50px; */
+  margin-left: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  position: relative;
+  display: flex;
+  width: 55%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(229,229,229);
+  color: white;
+
+}
+
+form h3{
+  font-family: fantasy;
+  color: black;
+  text-decoration: underline rgb(19,82,245);
+  text-underline-offset: 10px;
+}
+
+.cont-form .line{
+  display: flex;
+  width: 100px;
+  height: 4px;
+  /* background-color: rgb(167,167,167); */
+  background-color: black;
+}
+
+form input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  padding-left: 15px;
+  background-color: rgb(19,82,245);
+  color: white;
+  
+}
+
+textarea{
+  width: 500px;
+  height: 30vh;
+  border-radius: 6px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: rgb(19,82,245);
+  color: white;
+}
+
+.submit{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  justify-content: center;
+  text-align: center;
+  background-color:rgb(19,82,245);
+  color: white;
+  font-size: 17px;
+}
+.submit:hover{
+  background-color: black;
+}
+#maps{
+  position: absolute;
+  display: flex;
+  width: 45%;
+  height: 55vh;
+  border-radius: 10px;
+  background-color: rgb(19,82,245);
+  margin-left: 50vw;
+}
+
+#maps iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  /* background-color: black; */
+}
