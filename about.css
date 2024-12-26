@@ -55,13 +55,28 @@ body{
     align-items: center;
     justify-content: center;
     /* background-color: red; */
+   
+  }
+
+  #about::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: url(./comp-logo/Peterstouch_Merchant_logo_2-removebg-preview.png);
+      background-repeat: repeat;
+      background-size: contain;
+      background-position: center center;
+      background-attachment: fixed;
+      opacity: 0.5;
   }
   
   .abt-texts{
     padding-top: 5vh;
     display: flex;
     flex-direction: column;
-    /* height: 145vh; */
     height: auto;
     width: 70vw;
     align-items: center;
@@ -163,35 +178,7 @@ body{
   }
   /* ********************************************************* */
 
-  #why{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 50vh;
-    background-color: aqua;
-  }
 
-  .why-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 70vw;
-    height: 45vh;
-    background-color: orange;
-  }
-  .why-container h1{
-    font-family: fantasy;
-    color: black;
-  }
-
-  .why-container p{
-    text-align: center;
-    font-size: 20px;
-  }
 
 /* ************************************************************** */
 .footer{

@@ -256,27 +256,22 @@ body{
 /* ********************************************************************* */
 /* STYLE FOR THE 360 IMAGE SLIDER */
 .banner{
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
+  width: 20vw;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   position: relative;
-  /* background-color: aqua; */
+  background-color: rgb(19,82,245);
+  /* background-color: green; */
 }
 
 
 .banner .slider{
-  background-color: rgb(19,82,245);
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 250px;
-  top: 10%;
-  left: calc(50% - 100px);
-  transform-style: preserve-3d;
-  transform: perspective(1000px);
+  width: 250px;
+  height: 50vh;
   animation: autoRun 20s linear infinite;
   z-index: 2;
 }
@@ -291,6 +286,38 @@ body{
 .banner .slider img{
   width: 100%;
   height: 100%;
+}
+
+/* ************************************************************** */
+#why{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 70vh;
+  /* background-color: aqua; */
+}
+
+.why-container{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  width: 73vw;
+  height: 45vh;
+  /* background-color: orange; */
+}
+.why-container h3{
+  font-family: fantasy;
+  color: black;
+  text-decoration: underline  rgb(19,82,245);
+  text-underline-offset: 10px; 
+}
+
+.why-container p{
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 /* *************************************************************************8 */

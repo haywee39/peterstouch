@@ -1,6 +1,6 @@
 // Typewriter Effect
 const text1 = "THE PETERSTOUCH MERCHANTS";
-const text2 = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident iusto fugiat culpa, quisquam iure eaque nisi asperna";
+const text2 = "where innovation meets excellence. %n Provident iusto fugiat culpa, quisquam iure eaque nisi asperna";
 
 const typingSpeed = 75;
 let i = 0;
