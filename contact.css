@@ -89,40 +89,37 @@ body{
   margin-top: 4vh;
   display: flex;
   align-items: center;
+  /* justify-content: center; */
   width: 100vw;
-  height: 105vh;
+  height: 100vh;
   /* background-color: orange; */
 }
 
 .cont-form{
-  /* margin-top: 50px; */
+  margin-top: 50px;
   margin-left: 40px;
   padding-left: 40px;
-  padding-top: 20px;
+  padding-top: 40px;
   position: relative;
   display: flex;
   width: 55%;
-  height: 100%;
+  height: 80%;
   border-radius: 10px;
   background-color: rgb(229,229,229);
+  /* background-color: red; */
   color: white;
+  /* gap: 70px; */
 
 }
 
 form h3{
+  margin-bottom: 30px;
   font-family: fantasy;
   color: black;
   text-decoration: underline rgb(19,82,245);
   text-underline-offset: 10px;
 }
 
-.cont-form .line{
-  display: flex;
-  width: 100px;
-  height: 4px;
-  /* background-color: rgb(167,167,167); */
-  background-color: black;
-}
 
 form input{
   display: flex;
@@ -151,6 +148,7 @@ textarea{
 }
 
 .submit{
+  margin-top: 20px;
   display: flex;
   align-items: center;
   width: 200px;

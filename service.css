@@ -29,7 +29,7 @@ body{
 }
 
 .nav-link:hover {
-  color: lightblue; /* Hover color */
+  color: lightblue;
 }
 
 /* Change the toggler icon to white */
@@ -52,18 +52,21 @@ body{
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 170vh;
+  /* height: 170vh; */
+  height: auto;
+  margin-top: 20px;
   /* background-color: purple; */
   
 
 }
 /* ******************************************** */
 .serv-texts{
-  margin-top: 20vh;
+  margin-top: 25vh;
   display: flex;
   flex-direction: column;
-  height: 40vh;
-  width: 53vw;
+  /* height: 40vh; */
+  height: auto;
+  width: 55vw;
   align-items: center;
   justify-content: center;
   /* background-color: grey; */
@@ -90,7 +93,7 @@ body{
 /* STYLE FOR THE 360 IMAGE SLIDER */
 
 .banner{
-  margin-top: 5px;
+  margin-top: 20px;
   width: 100vw;
   height: 105vh;
   display: flex;
@@ -147,10 +150,11 @@ body{
 /* Section styling */
 #list-serve {
   width: 100vw;
-  height: 155vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   /* background-color: red; */
 }
 
@@ -194,7 +198,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 150vh;
+  height: auto;
   justify-content: space-evenly;
   align-items: center;
   /* background-color: orange; */

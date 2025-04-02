@@ -62,7 +62,8 @@
    /* MEDIA QUERY FOR 360 IMG SLIDER  */
    @media screen and (max-width: 1023px) {
     #serv{
-      height: 100vh;
+      /* height: 100vh; */
+      height: auto;
     }
     .serv-texts{
       margin-top: 12vh;
