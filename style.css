@@ -139,16 +139,16 @@ body{
   .abt-texts h1, h3{
     font-family: fantasy;
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-align: center; 
   }
   
-  /* .abt-texts p{
-    padding: 20px;
-    font-size: 30px;
+  .abt-texts p{
+    font-size: 20px;
     font-weight: bolder;
     color: white;
-  } */
+    text-align: center;
+  }
   /* styling for the 4circles  */
   .circle-container {
     position: relative;
@@ -256,17 +256,33 @@ body{
     transform: translateY(0);
     opacity: 1;
   }
+  /* **************************************************** */
+  #play-vid{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 700px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: black;   */
+}
+
+
+.motion{
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
 
 /* *************************************************************************************** */
  /* Section with Spinning Boxes */
  .spinning-section {
   width: 100vw;
-  /* height: 180vh; */
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: red; */
 }
 
 .box-container {
