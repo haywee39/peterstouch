@@ -133,9 +133,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
-      /* background-color: grey; */
-    
   }
   
   .abt-texts h1, h3{
@@ -239,7 +236,7 @@ body{
   .logo-comp {
     overflow: hidden;
     width: 40vw;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,7 +245,8 @@ body{
   
   .slide-in-image {
     width: 30vw; /* Adjust to the desired image size */
-    height: 85vh;
+    /* height: 85vh; */
+    height: 70vh;
     opacity: 0;
     transform: translateY(100%); /* Start position: off the screen to the right */
     transition: transform 1s ease, opacity 1s ease;
@@ -262,7 +260,6 @@ body{
   #play-vid{
     
     display: flex;
-    /* flex-direction: row; */
     width: auto;
     height: auto;
     align-items: center;
@@ -273,10 +270,10 @@ body{
 
 
 .motion{
-    padding: 50px;
+    /* padding: 40px; */
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
 }
 
 
@@ -304,10 +301,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   width: 90%;
   height: 100%;
-  /* background-color: rgb(200,210,221); */
   opacity: 0; /* Start invisible */
   transform: scale(0) rotate(0deg); /* Start small and not rotated */
   transition: transform 1s ease-out, opacity 1s ease-out;
@@ -366,9 +361,9 @@ body{
 
 /* ********************************************************************* */
 /* STYLE FOR THE 360 IMAGE SLIDER */
-.banner{
+/* .banner{
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   width: 20vw;
   height: 65vh;
   display: flex;
@@ -377,11 +372,11 @@ body{
   overflow: hidden;
   position: relative;
   background-color: rgb(19,82,245);
-  /* background-color: green; */
-}
+  background-color: green;
+} */
 
 
-.banner .slider{
+/* .banner .slider{
   position: absolute;
   width: 250px;
   height: 50vh;
@@ -399,7 +394,7 @@ body{
 .banner .slider img{
   width: 100%;
   height: 100%;
-}
+} */
 
 /* ************************************************************** */
 #why{
@@ -431,18 +426,7 @@ body{
   font-size: 20px;
   padding-top: 10px;
 }
-/* <!-- START- CUSTOMERS TESTIMONY BEGINS HERE -->CLIENT LIST */
-/* #client-cover{
-  padding: 15px 0 15px 0;
-  padding-top: 30px;
-  height: 50vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: black;
-  
-} */
+/* <!-- START- CLIENT LIST */
 #client-cover h3{
   font-family: fantasy;
   color: white;
@@ -468,29 +452,38 @@ body{
   text-decoration: underline  rgb(19,82,245);
   text-underline-offset: 10px; 
 } 
-/* <!-- END- CUSTOMERS TESTIMONY BEGINS HERE --> */
+/* <!-- END- CLIENTS LIST HERE --> */
 
 /* *************************************************************************8 */
-.footer{
+/* THE FOOTER BEGINS FROM HERE  */
+footer{
   margin-top: 30px;
   padding: 20px;
   background-color: rgb(19,82,245);
   width: 100vw;
   color: white;
   height: auto;
+  gap: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.one, .two{
+/* ************************ */
+.one{
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-evenly;
-  width: 50%;
+  width: 40%;
   height: 100%;
   /* background-color: #A04000; */
 }
-/* ************* */
+.two{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 100%;
+  /* background-color: #A04000;  */
+}
+/* ******************************** */
 .pages{
   display: flex;
   flex-direction: column;
@@ -498,25 +491,14 @@ body{
   height: 100%;
   justify-content: center;
   align-items:flex-start;
-  /* background-color: orange; */
-  
+  /* background-color: orange; */  
 }
 .pages a{
   text-decoration: none;
   color:white;
   font-size: large;
 }
-.contacts{
-  display: flex;
-  flex-direction: column;
-  width: 30vw;
-  height: auto;
-  justify-content: center;
-  align-items:flex-start;
-  /* gap: 20px; */
-  /* background-color: red; */
-  
-}
+
 /* ************* */
 .ban{
   display: flex;
@@ -528,17 +510,16 @@ body{
   align-items: center;
   overflow: hidden;
   position: relative;
-  /* background-color: rgb(19,82,245); */
+  background-color: rgb(19,82,245);
 }
 
 .ban img{
-  width: 90%;
+  width: 85%;
   height: auto;
 }
-.ban img{
+/* .ban img{
   animation: autoRun 20s linear infinite;
   z-index: 2;
-  /* background-color: red; */
 }
 @keyframes autoRun{
   from{
@@ -546,7 +527,7 @@ body{
   }to{
       transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
   }
-}
+} */
 
 .socials{
   display: flex;
@@ -567,12 +548,22 @@ body{
   color: black;
 }
 /* ********************************************** */
-.contacts .fa-brands{
+.address{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: auto;
+  justify-content: center;
+  align-items:flex-start;
+  /* background-color: red; */
+  
+}
+.address .fa-brands{
   text-decoration: none;
   color: white;
  }
  
- .contacts a{
+ .address a{
    text-decoration: none;
    color:white;
    font-size: large;
@@ -580,7 +571,7 @@ body{
    
  }
  
- .contacts a:hover{
+ .address a:hover{
    color: black;
  }
 /* ****************************************  */

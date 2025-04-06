@@ -43,6 +43,7 @@
         font-size: 18px !important;
         color: white;
       }
+      
 }
 
 
@@ -100,13 +101,21 @@
     /* ************************** */
     .logo-comp{
         width: 100vw;
-        height: 50vh;
+        height: 30vh;
     }
     .slide-in-image {
-        width: 55vw; 
-        height: 45vh;
+        width: 90%; 
+        height: auto;
+        /* background-color: red; */
     }
     /* ***************************** */
+    /* video section  */
+    .motion{
+        width: 100%;
+        padding: 10px;
+       
+    }
+    /* ********************** */
     .spinning-section{
         margin-top: 5vh;
         height: auto;
@@ -135,23 +144,23 @@
         display: flex;
         flex-direction: column;
     }
-    .banner{
+    /* .banner{
         width: 50%;
         height: 30vh;
     }
 
     .banner .slider{
         display: flex;
-  align-items: center;
-  justify-content: center;
-        /* width: 200px !important; */
-        /* height: 250px !important; */
-        /* background-color: red; */
+        align-items: center;
+        justify-content: center;
+        width: 200px !important;
+        height: 250px !important;
+        background-color: red;
     }
     .banner .slider img{
         width: 100%;
         height: 100%;
-    }
+    } */
 
     .why-container{
         margin-top: 30px;
@@ -168,8 +177,7 @@
 
 
     /* **************************************8 */
-    .footer{
-        /* margin-top: 20px; */
+    footer{
         display: flex;
         flex-direction: column;
         width: 100vw;
@@ -178,12 +186,26 @@
         align-items: center;
       }
       .one, .two{
-        display: flex;
-        /* flex-direction: column; */
-        justify-content: space-evenly;
         width: 100%;
-        height: 100%;
+        height: auto;
         /* background-color: #A04000; */
+      }
+      .two{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+
+      .ban{
+        width: 45vw;
+      }
+      .address, .dev{
+        width: 100%;
+      }
+      .dev{
+        align-items: first baseline;
+        height: auto;
+  
       }
   
       .foot{
