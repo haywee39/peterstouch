@@ -81,6 +81,43 @@ textarea{
   border-radius: 0;
 }
 
+ /* **************************************8 */
+ footer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.one, .two{
+  width: 100%;
+  height: auto;
+  /* background-color: #A04000; */
+}
+.two{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.ban{
+  width: 45vw;
+}
+.address, .dev{
+  width: 100%;
+}
+.dev{
+  align-items: first baseline;
+  height: auto;
+
+}
+
+.foot{
+  display: flex;
+  width: 100vw;
+  height: 100%;
+}
 
 
 
