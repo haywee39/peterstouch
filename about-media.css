@@ -22,6 +22,21 @@
   .abt-texts p{
     font-size: 18px;
   }
+  /* ******************************* */
+  .selling-point{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    background: black;
+  }
+
+  .selling-point p{
+    font-size: 16px;
+  }
+/* *********************************         */
 /* *************************** */
   #believes{
     display: flex;

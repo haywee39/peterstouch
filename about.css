@@ -101,6 +101,20 @@ body{
     font-size: 20px;
     color: black;
   }
+
+  .selling-point{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bolder;
+    /* background: black; */
+  }
+  
+  .selling-point .fa-solid{
+    color: rgb(19,82,245);
+  }
   /* *********************************************************** */
  
   #believes{
@@ -170,7 +184,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 28vw;
-    height: 35vh;
+    height: 30vh;
     text-align: center;
     font-size: 20px;
     color: black;
