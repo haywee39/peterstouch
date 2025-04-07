@@ -146,12 +146,8 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-evenly; */
-        /* align-items: center; */
         background-color: rgb(19,82,245);
-        /* color: white; */
-        /* box-shadow:white 15px 15px 15px; */
-      
+        
       }
 
       .cover{
