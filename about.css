@@ -58,20 +58,20 @@ body{
    
   }
 
-  #about::before{
+  /* #about::before{
     content: '';
     position: absolute;
     top: 50%;
     right: 0;
     left: 0;
     bottom: 0;
-    background-image: url(./comp-logo/Peterstouch_Merchant_logo_2-removebg-preview.png);
-      background-repeat: repeat;
-      background-size: contain;
-      background-position: center center;
-      background-attachment: fixed;
-      opacity: 0.5;
-  }
+    background-image: url(./comp-logo/handsonscrn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 0.3;
+  } */
   
   .abt-texts{
     padding-top: 5vh;
@@ -81,6 +81,7 @@ body{
     width: 70vw;
     align-items: center;
     justify-content: center;
+    /* color: white; */
     /* background-color: grey; */
     
   }
@@ -110,6 +111,11 @@ body{
     align-items: center;
     font-weight: bolder;
     /* background: black; */
+  }
+
+  .selling-point p{
+    padding: 10px;
+    color: white;
   }
   
   .selling-point .fa-solid{
