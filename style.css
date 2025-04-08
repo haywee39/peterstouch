@@ -288,7 +288,7 @@ body{
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 20px;
-  gap: 10px;
+  /* gap: 10px; */
   width: 100vw;
   height: 60vh;
   display: flex;
@@ -297,29 +297,27 @@ body{
   background-color: rgb(19,82,245);
   color: white;
 }
-.cover{
-  display: flex;
-  justify-content: space-evenly;
-  width: 70vw;
-  height: 100%;
-  /* background-color: orchid; */
-}
 .pic-do{
-  width: 25vw;
-  height: 70%; 
-  /* background-color: purple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 100%; 
+  background-color: purple;
 }
 .pic-do img{
-  width: 100%;
-  height: 100%;
+  width: 430px;
+  height: 350px;
   border-radius: 50%;
 }
 
 .what-we-do{
-  justify-content: left;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
   height: 100%;
-  width: 70%;
+  width: 30%;
   /* background-color: yellow; */
 }
 .what-we-do p{
@@ -328,27 +326,24 @@ body{
 .call-pro{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: flex-start;
   height: auto;
-  width: 30%;
- 
+  width: 20%;
+  font-size: 18px;
   /* background-color: orange; */
 }
-.call-pro a{
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
+
 /* ******************* */
-button {
+/* button  */
+.contact-us {
   position: relative;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 150px;
   height: 60px;
-  background: red;
+  background: none;
   border: 1px solid white;
   font-size: 18px;
   color: white;
@@ -358,27 +353,22 @@ button {
   transition: .5s;
 }
 
-/* button:hover{
-  color: white;
-  border: none;
-} */
-button::before{
+.contact-us::before{
   content: '';
   position: absolute;
   right: 0;
-  /* top: 0; */
-  /* bottom: 0; */
   width: 10px;
-  /* height: 5px; */
   height: 100%;
-  background: rgb(19,82,245);
+  background: lawngreen;
   z-index: -1;
   transition: .5s;
 
 }
-button:hover::before{
+.contact-us:hover::before{
   width: 100%;
 }
+
+
 /* **************************************** */
  /* Section with Spinning Boxes */
  .spinning-section {
